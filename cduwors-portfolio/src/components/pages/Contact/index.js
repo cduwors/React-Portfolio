@@ -41,7 +41,7 @@ function ContactForm() {
 
 	return (
 		<section>
-            <div className="wrapper">
+            <div className="wrapper pageContent">
 			<h1>Contact me!</h1>
 			<form id="contact-form" onSubmit={handleSubmit}>
 				<div>

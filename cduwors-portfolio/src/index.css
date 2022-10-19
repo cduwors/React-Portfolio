@@ -30,7 +30,7 @@ body {
 	padding: 0;
 	font-weight: 600;
 	line-height: 1.5;
-	font-size: 24px;
+	font-size: 16px;
 	letter-spacing: 0.1em;
 	background: var(--primary);
 	color: var(--light);
@@ -98,12 +98,10 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("./assets/folio_cover/IMG_2033.png");
-    position: fixed;
-    top: 0px;
+    background-image: url("../src/assets/folio_cover/IMG_2033.png");
     width: 100%;
     height: auto;
-    
+    padding-top: 15px;
 }
 
 header a {
@@ -123,24 +121,34 @@ header a {
 .wrapper {
     display: flex;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
     /* height: 100%;
     /* margin-top: 130px; */
     height: 100vh;
     width: 100%;
+    /* overflow-y: scroll; */
+}
+
+.pageContentAbout {
+    flex-grow: 1;
     overflow-y: scroll;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .pageContent {
     flex-grow: 1;
     overflow-y: scroll;
+    margin-left: 25px;
+    margin-right: 25px;
+	/* display:flex;
+	justify-content: center; */
 }
 
 footer {
     display: flex;
     justify-content: center;
-    background-image: url("./assets/folio_cover/IMG_2033.png");
-    position: fixed;
+    background-image: url("../src/assets/folio_cover/IMG_2033.png");
     bottom: 0px;
     width: 100%;
     height: auto;
@@ -148,7 +156,7 @@ footer {
 }
 
 .logos:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 button {
@@ -166,7 +174,7 @@ button {
 }
 
 button:hover {
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
 button[disabled] {
@@ -206,7 +214,7 @@ li {
 
 nav a:hover {
 	text-decoration: none;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 nav li {

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "./pages/Header";
-import NavTabs from "./NavTabs";
 import About from "./pages/About";
 import Footer from "./pages/Footer";
 import ContactForm from "./pages/Contact";
@@ -16,27 +15,20 @@ export default function PortfolioContainer() {
 		if (currentPage === "Portfolio") {
 			return <Portfolio />;
 		}
-		if (currentPage === "Resumé") {
+		if (currentPage === "Resume") {
 			return <Resume />;
 		}
 		return <ContactForm />;
 	};
 
-	const handlePageChange = (page) => setCurrentPage(page);
-
 	return (
 		<body>
 			<div className="wrapper">
+				<Header currentPage={currentPage} setCurrentPage={setCurrentPage} ></Header>
 
-				<Header></Header>
-
-				<NavTabs
-					currentPage={currentPage}
-					handlePageChange={handlePageChange}
-				/>
 				{renderPage()}
+				<Footer></Footer>
 			</div>
-			<Footer></Footer>
 		</body>
 	);
 }

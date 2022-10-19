@@ -1,38 +1,38 @@
 import React from "react";
-import Header from "./pages/Header";
 
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs({ currentPage, setCurrentPage }) {
+	console.log(currentPage);
+
 	return (
 		<section>
-			{/* <Header></Header> */}
 			<nav>
 				<ul className="flex-row">
 					<li className="mx-2">
 						<a
 							href="#about"
-							onClick={() => handlePageChange("About")}
+							onClick={() => setCurrentPage("About")}
 							className={
 								currentPage === "About" ? "nav-link active" : "nav-link"
 							}>
-							About
+							About Me
 						</a>
 					</li>
 
 					<li className="mx-2">
 						<a
 							href="#portfolio"
-							onClick={() => handlePageChange("Portfolio")}
+							onClick={() => setCurrentPage("Portfolio")}
 							className={
 								currentPage === "Portfolio" ? "nav-link active" : "nav-link"
 							}>
-							About
+							Portfolio
 						</a>
 					</li>
 
 					<li className="mx-2">
 						<a
 							href="#resume"
-							onClick={() => handlePageChange("Resume")}
+							onClick={() => setCurrentPage("Resume")}
 							className={
 								currentPage === "Resume" ? "nav-link active" : "nav-link"
 							}>
@@ -43,17 +43,13 @@ function NavTabs({ currentPage, handlePageChange }) {
 					<li className="mx-2">
 						<a
 							href="#contact"
-							onClick={() => handlePageChange("Contact")}
+							onClick={() => setCurrentPage("Contact")}
 							className={
 								currentPage === "Contact" ? "nav-link active" : "nav-link"
 							}>
 							Contact Me!
 						</a>
 					</li>
-
-					{/* <li className={`mx-2 ${contactSelected && "navActive"}`}>
-						<a onClick={() => setContactSelected(true)}>Contact</a>
-					</li> */}
 				</ul>
 			</nav>
 		</section>

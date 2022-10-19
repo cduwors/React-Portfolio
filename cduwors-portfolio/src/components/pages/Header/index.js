@@ -1,6 +1,7 @@
 import React from "react";
+import NavTabs from "../../NavTabs";
 
-export default function Header() {
+export default function Header( { currentPage, setCurrentPage }) {
 	return (
 		<header className="flex-row">
 			<div>
@@ -9,6 +10,7 @@ export default function Header() {
 			<div>
 				<h4>Full Stack Web Developer</h4>
 			</div>
+			<NavTabs currentPage={currentPage} setCurrentPage={setCurrentPage} />
 		</header>
 	);
 }

@@ -7,7 +7,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
 		<section>
 			<nav>
 				<ul className="flex-row">
-					<li className="mx-2">
+					<li className="mx-2 navList">
 						<a
 							href="#about"
 							onClick={() => setCurrentPage("About")}
@@ -18,7 +18,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
 						</a>
 					</li>
 
-					<li className="mx-2">
+					<li className="mx-2 navList">
 						<a
 							href="#portfolio"
 							onClick={() => setCurrentPage("Portfolio")}
@@ -29,7 +29,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
 						</a>
 					</li>
 
-					<li className="mx-2">
+					<li className="mx-2 navList">
 						<a
 							href="#resume"
 							onClick={() => setCurrentPage("Resume")}
@@ -40,7 +40,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
 						</a>
 					</li>
 
-					<li className="mx-2">
+					<li className="mx-2 navList">
 						<a
 							href="#contact"
 							onClick={() => setCurrentPage("Contact")}

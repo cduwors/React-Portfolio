@@ -16,9 +16,9 @@ export default function Resume() {
 			</div>
 			<div className="flex-row resume">
 				<div>
-					<div style={{ display: "inline", float: "left" }}>
+					<div style={{ display: "inline", float: "left", padding: "30px" }}>
 						<h4>Front-End Experience</h4>
-						<ol style={{ listStyleType: "decimal" }}>
+						<ol style={{ listStyleType: "disc" }}>
 							<li>HTML</li>
 							<li>CSS</li>
 							<li>JavaScript</li>
@@ -30,10 +30,10 @@ export default function Resume() {
 					</div>
 				</div>
 				<div>
-					<div style={{ display: "inline", float: "left" }}>
+					<div style={{ display: "inline", float: "left", padding: "30px" }}>
 						<h4>Back-End Experience</h4>
 
-						<ol style={{ listStyleType: "decimal" }}>
+						<ol style={{ listStyleType: "disc" }}>
 							<li>APIs</li>
 							<li>Node</li>
 							<li>Express</li>

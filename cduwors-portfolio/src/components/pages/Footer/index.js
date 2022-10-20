@@ -7,7 +7,7 @@ import linkedInLogo from "../../../assets/logos/linkedInLogo.png"
 function Footer() {
 	return (
 		<footer>
-				<ul className="flex-row">
+				<ul className="flex-row navList">
 					<li className="mx-2 logos">
 						<a href="https://github.com/cduwors">
                         <img src={githubLogo} alt="Link to my GitHub" height="64px"></img>

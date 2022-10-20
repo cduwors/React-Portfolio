@@ -1,13 +1,14 @@
 import React from "react";
 
 export default function Project({ project }) {
-	const { name, description, gitHubLink, deployedLink } = project;
+	const { name, title, description, gitHubLink, deployedLink } = project;
 
 	return (
 		<div className="projectContent">
 			<div className="card projectCard">
-				<p>{description}</p>
-				<a href={deployedLink}>{name}
+				<h5>{title}</h5>
+                <p>{description}</p>
+				<a href={deployedLink}>
                 <img
 					src={require(`../../../assets/projectPics/${name}.jpg`)}
 					alt={name}
@@ -16,13 +17,6 @@ export default function Project({ project }) {
 				<h6>
 					<a href={gitHubLink}>GitHub</a>
 				</h6>
-
-				<div>
-					{/* <h3>
-						<a href={deployedLink}>{name}</a> <a href={gitHubLink}>GitHub</a>
-					</h3>
-					<p>{description}</p> */}
-				</div>
 			</div>
 		</div>
 	);

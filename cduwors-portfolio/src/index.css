@@ -118,11 +118,18 @@ header a {
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	/* position: relative; */
-	/* height: 100%;
-    /* margin-top: 130px; */
+	position: relative;
 	height: 100vh;
 	width: 100%;
+	/* overflow-y: scroll; */
+}
+
+.wrapperContact {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	height: 100vh;
+	width: 100vw;
 	/* overflow-y: scroll; */
 }
 
@@ -138,6 +145,8 @@ header a {
 	overflow-y: scroll;
 	margin-left: 25px;
 	margin-right: 25px;
+	height: 100vh;
+	width: 100vw;
 }
 
 .pageContent {
@@ -205,20 +214,16 @@ span[role="img"] {
 	width: 40%;
 } */
 .form {
-	/* box-sizing: border-box; */
+	box-sizing: border-box;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	flex-grow: 1;
-	width: 40%;
-	/* padding: 0; */
-	/* border: 5px solid orange;
-	border-radius: 8%; */
+	flex-shrink: 1;
 	padding: 5px;
-	/* position: relative; */
-	/* text-align: center; */
 	margin: 0 0 .5vh 0;
+	align-items: center;
+
 }
 
 .form input, textarea {
@@ -252,7 +257,12 @@ textarea {
 	border-radius: 15px;
 }
 
-li {
+textArea:focus {
+	border: 3px solid var(--tertiary);
+	/* box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5); */
+}
+
+.navList {
 	list-style: none;
 }
 
@@ -280,7 +290,8 @@ nav li {
 }
 
 .resume {
-	justify-content: space-around;
+	justify-content: center;
+	font-size: 20px;
 }
 
 .resumeHead {
@@ -291,19 +302,25 @@ nav li {
 	padding: 15px;
 }
 
-.projectContent {
-	display: flex;
-	flex-direction: row;
-
-}
 .card {
-	width: 25%;
+	width: 33%;
+	height: auto;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	flex-shrink: 1;
 	padding: 25px;
 	justify-content: center;
 
+}
+.projectContent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.projectList {
+	align-items: center;
 }
 
 .space-between {
@@ -337,35 +354,6 @@ nav li {
 .my-5 {
 	margin-top: var(--spacing-five);
 	margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-	padding-right: var(--spacing-one);
-	padding-left: var(--spacing-one);
-}
-
-.px-2 {
-	padding-right: var(--spacing-two);
-	padding-left: var(--spacing-two);
-}
-
-.py-1 {
-	padding-top: var(--spacing-one);
-	padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-	padding-top: var(--spacing-two);
-	padding-bottom: var(--spacing-two);
-}
-
-
-
-.img-thumbnail {
-	width: auto;
-	height: 300px;
-	margin-bottom: 50px;
-	cursor: pointer;
 }
 
 a {

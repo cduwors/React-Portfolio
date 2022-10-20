@@ -8,14 +8,9 @@ function About() {
 				<img className="profile" src={profilePicture} alt="Christina" />
 				<h1 id="about">About Me!</h1>
 				<p>
-					seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion
-					axe occupy readymade put a bird on it messenger bag Wes Anderson
-					Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag
-					trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO
-					Banksy chillwave bicycle rights retro cliche tattooed bespoke irony
-					mumblecore Shoreditch deep v polaroid McSweeney's bitters cray
-					gentrify tofu Marfa you probably haven't heard of them yr banh mi
-					asymmetrical art party selvage letterpress High Life.
+					I am on a path to "re-boot" my career as a Full Stack Web Developer. Previously, I worked in education as a career counselor, a project manager, and a math and social studies teacher. This experience has honed my soft skills - most notably I am very good at time management, communication, problem-solving, and teamwork. My goal is to combine my diverse work experience and my work ethic with the new skills I have begun to build in the UNC-Chapel Hill Full Stack Web Developer Boot Camp.  In boot camp I was introduced to the full range of front and back end skills built on a Javascript foundation - I look forward to working on a fantastic team, with a great company to build my foundation into expertise.
+
+					Check out my Portfolio and full Resumé and let's talk about how I can be an asset for you! 
 				</p>
 			</div>
 		</section>

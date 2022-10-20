@@ -22,13 +22,13 @@ export default function PortfolioContainer() {
 	};
 
 	return (
-		<body>
+		<div className="body">
 			<div className="wrapper">
 				<Header currentPage={currentPage} setCurrentPage={setCurrentPage} ></Header>
 
 				{renderPage()}
 				<Footer></Footer>
 			</div>
-		</body>
+		</div>
 	);
 }

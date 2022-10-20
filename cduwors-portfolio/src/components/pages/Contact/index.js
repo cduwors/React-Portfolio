@@ -40,45 +40,48 @@ function ContactForm() {
 	}
 
 	return (
-		<section>
-            <div className="wrapper pageContent">
-			<h1>Contact me!</h1>
-			<form id="contact-form" onSubmit={handleSubmit}>
-				<div>
-					<label htmlFor="name">Name:</label>
-					<input
-						type="text"
-						defaultValue={name}
-						onBlur={handleChange}
-						name="name"
-					/>
-				</div>
-				<div>
-					<label htmlFor="email">Email Address:</label>
-					<input
-						type="email"
-						defaultValue={email}
-						onBlur={handleChange}
-						name="email"
-					/>
-				</div>
-				<div>
-					<label htmlFor="message">Message:</label>
-					<textarea
-						name="message"
-						defaultValue={message}
-						onBlur={handleChange}
-						rows="5"
-					/>
-				</div>
-				{errorMessage && (
+		<section className="pageContentContact">
+			<div className="wrapper">
+				<h3 className="resumeHead">Contact me!</h3>
+				<form className="form" id="contact-form" onSubmit={handleSubmit}>
 					<div>
-						<p className="error-text">{errorMessage}</p>
+						{/* <label htmlFor="name">Name:</label> */}
+						<input
+						placeholder="Name"
+							type="text"
+							defaultValue={name}
+							onBlur={handleChange}
+							name="name"
+						/>
 					</div>
-				)}
-				<button type="submit">Submit</button>
-			</form>
-            </div> 
+					<div>
+						{/* <label htmlFor="email">Email Address:</label> */}
+						<input
+						placeholder="Email"
+							type="email"
+							defaultValue={email}
+							onBlur={handleChange}
+							name="email"
+						/>
+					</div>
+					<div>
+						{/* <label htmlFor="message">Message:</label> */}
+						<textarea
+						placeholder="Type your message here..."
+							name="message"
+							defaultValue={message}
+							onBlur={handleChange}
+							rows="5"
+						/>
+					</div>
+					{errorMessage && (
+						<div>
+							<p className="error-text">{errorMessage}</p>
+						</div>
+					)}
+					<button type="submit">Submit</button>
+				</form>
+			</div>
 		</section>
 	);
 }

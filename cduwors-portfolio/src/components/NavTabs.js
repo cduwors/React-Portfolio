@@ -12,7 +12,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
 							href="#about"
 							onClick={() => setCurrentPage("About")}
 							className={
-								currentPage === "About" ? "nav-link active" : "nav-link"
+								currentPage === "About" ? "nav-link active" : "nav-link" && "navActive"
 							}>
 							About Me
 						</a>
@@ -23,7 +23,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
 							href="#portfolio"
 							onClick={() => setCurrentPage("Portfolio")}
 							className={
-								currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+								currentPage === "Portfolio" ? "nav-link active" : "nav-link" && "navActive"
 							}>
 							Portfolio
 						</a>
@@ -34,7 +34,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
 							href="#resume"
 							onClick={() => setCurrentPage("Resume")}
 							className={
-								currentPage === "Resume" ? "nav-link active" : "nav-link"
+								currentPage === "Resume" ? "nav-link active" : "nav-link" && "navActive"
 							}>
 							Resumé
 						</a>
@@ -45,7 +45,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
 							href="#contact"
 							onClick={() => setCurrentPage("Contact")}
 							className={
-								currentPage === "Contact" ? "nav-link active" : "nav-link"
+								currentPage === "Contact" ? "nav-link active" : "nav-link" && "navActive"
 							}>
 							Contact Me!
 						</a>

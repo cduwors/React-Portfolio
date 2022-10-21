@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.e8a2df82.css",
+    "main.js": "/React-Portfolio/static/js/main.e9610061.js",
+    "static/media/IMG_2033.png": "/React-Portfolio/static/media/IMG_2033.1434fd9e50a2bede54a6.png",
+    "static/media/holidayHiway.jpg": "/React-Portfolio/static/media/holidayHiway.8ccbd679dea3ef9a9e62.jpg",
+    "static/media/foodForThought.jpg": "/React-Portfolio/static/media/foodForThought.e1cf532038261e6a65f0.jpg",
+    "static/media/runBuddy.jpg": "/React-Portfolio/static/media/runBuddy.0ab10e4146d11723c2ee.jpg",
+    "static/media/instaLogo.png": "/React-Portfolio/static/media/instaLogo.7618c0fff7b3af6bac2a.png",
+    "static/media/techBlog.jpg": "/React-Portfolio/static/media/techBlog.377f58be55392b4b1142.jpg",
+    "static/media/eCommerce.jpg": "/React-Portfolio/static/media/eCommerce.a0ac3c2c400b2abef47e.jpg",
+    "static/media/teamProfileGenerator.jpg": "/React-Portfolio/static/media/teamProfileGenerator.cb8fb54864d6bf0debf2.jpg",
+    "static/media/profilePicture.png": "/React-Portfolio/static/media/profilePicture.87b08bafa38ea2bc75c2.png",
+    "static/media/resume2021.pdf": "/React-Portfolio/static/media/resume2021.86ea830c36e0c12bb556.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.e8a2df82.css.map": "/React-Portfolio/static/css/main.e8a2df82.css.map",
+    "main.e9610061.js.map": "/React-Portfolio/static/js/main.e9610061.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a2df82.css",
+    "static/js/main.e9610061.js"
+  ]
+}

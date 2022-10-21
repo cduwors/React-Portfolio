@@ -81,6 +81,10 @@ function ContactForm() {
 					)}
 					<button type="submit">Submit</button>
 				</form>
+				<div className="resumeHead">
+					<h4>Phone: 253-888-9608</h4>
+					<h4>email: christinaduwors@gmail.com</h4>
+				</div>
 			</div>
 		</section>
 	);

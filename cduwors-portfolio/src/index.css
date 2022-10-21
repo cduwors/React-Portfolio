@@ -150,7 +150,6 @@ header a {
 	margin-right: 25px;
 }
 
-
 footer {
 	display: flex;
 	justify-content: center;
@@ -177,7 +176,6 @@ button {
 	margin: 0 1px;
 	background-color: var(--secondary);
 	width: 600px;
-
 }
 
 button:hover {
@@ -210,20 +208,20 @@ span[role="img"] {
 	flex-grow: 1;
 	flex-shrink: 1;
 	padding: 5px;
-	margin: 0 0 .5vh 0;
+	margin: 0 0 0.5vh 0;
 	align-items: center;
 }
 
-.form input, textarea {
+.form input,
+textarea {
 	display: flex;
 	justify-content: center;
 	width: 600px;
-	margin: .9vw 0;
+	margin: 0.9vw 0;
 	font-size: 20px;
 }
 
 input {
-
 	font-size: 1rem;
 	padding: 0.25rem;
 	border: 3px solid var(--secondary);
@@ -247,7 +245,6 @@ textarea {
 
 textArea:focus {
 	border: 3px solid var(--tertiary);
-	/* box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5); */
 }
 
 .navList {
@@ -292,7 +289,6 @@ nav li {
 	height: auto;
 	text-align: center;
 	padding: 25px;
-
 }
 .projectContent {
 	display: flex;
@@ -301,13 +297,11 @@ nav li {
 	width: 33%;
 }
 
-
 .projectList {
 	flex-wrap: wrap;
 	display: flex;
 	align-items: flex-start;
 }
-
 
 .space-between {
 	justify-content: space-between;

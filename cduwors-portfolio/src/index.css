@@ -1,3 +1,7 @@
+body {
+	margin: 0px;
+}
+
 main {
 	margin: 0 auto;
 	max-width: 90%;
@@ -48,7 +52,6 @@ h6 {
 	font-weight: 500;
 	margin: 5px 0;
 	line-height: 1.25;
-	/* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
 	text-shadow: 2px 2px 4px #000000;
 }
 
@@ -121,16 +124,7 @@ header a {
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	/* overflow-y: scroll; */
-}
-
-.wrapperContact {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	height: 100vh;
-	width: 100vw;
-	/* overflow-y: scroll; */
+	overflow-y: scroll;
 }
 
 .pageContentAbout {
@@ -154,15 +148,8 @@ header a {
 	overflow-y: scroll;
 	margin-left: 25px;
 	margin-right: 25px;
-	/* display:flex;
-	justify-content: center; */
 }
 
-.projectPic {
-	object-fit: cover;
-	width: 100%;
-	height: auto;
-}
 
 footer {
 	display: flex;
@@ -206,13 +193,15 @@ img {
 	max-width: 100%;
 }
 
+.projectPic {
+	width: 95%;
+	height: 95%;
+}
+
 span[role="img"] {
 	cursor: default;
 }
 
-/* form {
-	width: 40%;
-} */
 .form {
 	box-sizing: border-box;
 	margin: 0;
@@ -223,7 +212,6 @@ span[role="img"] {
 	padding: 5px;
 	margin: 0 0 .5vh 0;
 	align-items: center;
-
 }
 
 .form input, textarea {
@@ -275,8 +263,6 @@ nav li {
 	cursor: pointer;
 }
 
-
-
 .container {
 	width: 85%;
 	max-width: 1200px;
@@ -303,25 +289,25 @@ nav li {
 }
 
 .card {
-	width: 33%;
 	height: auto;
 	text-align: center;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 1;
 	padding: 25px;
-	justify-content: center;
 
 }
 .projectContent {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	width: 33%;
 }
 
+
 .projectList {
-	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	align-items: flex-start;
 }
+
 
 .space-between {
 	justify-content: space-between;

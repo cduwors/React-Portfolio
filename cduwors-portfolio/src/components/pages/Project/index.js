@@ -5,7 +5,7 @@ export default function Project({ project }) {
 
 	return (
 		<div className="projectContent">
-			<div className="card projectCard">
+			<div className="card">
 				<h5>{title}</h5>
                 <p>{description}</p>
 				<a href={deployedLink}>

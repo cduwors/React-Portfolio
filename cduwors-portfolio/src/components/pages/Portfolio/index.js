@@ -17,6 +17,13 @@ export default function Portfolio() {
 			gitHubLink: "#",
 			deployedLink: "https://cduwors.github.io/food-for-thought/",
 		},
+		{
+			name: "eCommerce",
+			title: "Retail Back End",
+			description: "Sequelize/Express",
+			gitHubLink: "https://github.com/cduwors/retail-backend-mod13",
+			deployedLink: "https://drive.google.com/file/d/1tXFiaW9vJeVRiOPuv2vrOi9Nca7hfqMx/view",
+		},
 		//need to finish techBlog and deploy
 		{
 			name: "techBlog",
@@ -25,13 +32,7 @@ export default function Portfolio() {
 			gitHubLink: "https://github.com/cduwors/my-tech-blog",
 			deployedLink: "#",
 		},
-		{
-			name: "eCommerce",
-			title: "Retail Back End",
-			description: "Sequelize/Express",
-			gitHubLink: "https://github.com/cduwors/retail-backend-mod13",
-			deployedLink: "https://drive.google.com/file/d/1tXFiaW9vJeVRiOPuv2vrOi9Nca7hfqMx/view",
-		},
+
 		{
 			name: "teamProfileGenerator",
 			title: "Team Profile Generator",
@@ -48,7 +49,7 @@ export default function Portfolio() {
 		},
 	]);
 	return (
-		<div>
+		<div className="projectDisplay">
 			<div className="projectList">
 				{ projects.map((project, idx) => (
 					<Project

@@ -16,7 +16,7 @@ React skills showcased in this project:
 
 - Conditional rendering of components based on updates to state.
 
-View the Depoloyed site here: https://cduwors.github.io/React-Portfolio/
+View the Deployed site here: https://cduwors.github.io/React-Portfolio/
 
 
 ## Table of Contents
